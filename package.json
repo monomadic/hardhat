@@ -1,8 +1,10 @@
 {
     "name": "hardhat-project",
+    "license": "UNLICENSE",
+    "private": true,
     "scripts": {
         "build": "hardhat compile",
-        "deploy": "npx hardhat run scripts/deploy.ts --network testnet"
+        "deploy": "hardhat run scripts/deploy.ts --network testnet"
     },
     "devDependencies": {
         "@nomiclabs/hardhat-ethers": "^2.0.2",
@@ -12,7 +14,6 @@
         "@types/mocha": "^8.2.3",
         "@types/node": "^16.3.2",
         "chai": "^4.3.4",
-        "dotenv": "^10.0.0",
         "ethereum-waffle": "^3.4.0",
         "ethers": "^5.4.1",
         "hardhat": "^2.4.3",

@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract PmknToken is ERC20, Ownable {
 
-    constructor() ERC20("PmknToken", "PMKN") {}
+    constructor() ERC20("TokenName", "TOK") {}
 
     function mint(address to, uint256 amount) public onlyOwner {
         _mint(to, amount);
