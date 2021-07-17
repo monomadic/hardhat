@@ -4,7 +4,7 @@ import "hardhat-deploy";
 let { TESTNET, MAINNET, BSCSCAN_API_KEY } = require("./secret");
 
 module.exports = {
-  solidity: "0.8.6",
+  solidity: "0.8.4",
   networks: {
     testnet: {
       url: TESTNET.ENDPOINT,
