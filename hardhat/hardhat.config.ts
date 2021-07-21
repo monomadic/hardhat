@@ -1,4 +1,5 @@
 import "@nomiclabs/hardhat-waffle";
+import "@nomiclabs/hardhat-etherscan";
 import "hardhat-deploy";
 
 let { TESTNET, MAINNET, BSCSCAN_API_KEY } = require("./secret");
