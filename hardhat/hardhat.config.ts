@@ -27,4 +27,11 @@ module.exports = {
   namedAccounts: {
     deployer: 0,
   },
+
+  gasReporter: {
+    currency: "USD",
+    enabled: process.env.REPORT_GAS ? true : false,
+    excludeContracts: [],
+    src: "./contracts",
+  },
 };

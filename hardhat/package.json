@@ -4,7 +4,8 @@
     "private": true,
     "scripts": {
         "build": "hardhat compile",
-        "deploy": "hardhat run scripts/deploy.ts --network testnet"
+        "deploy": "hardhat run scripts/deploy.ts --network testnet",
+        "server": "hardhat node"
     },
     "devDependencies": {
         "@nomiclabs/hardhat-ethers": "^2.0.2",
